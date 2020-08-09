@@ -1,5 +1,5 @@
 const Websocket = require('ws');
-const ws = new Websocket('ws://47.101.160.77:3001/freetalk/stream/upload');
+const ws = new Websocket('ws://47.101.160.77:4004/freetalk/stream/upload');
 var fs = require('fs');
 
 // 编码为 base64
