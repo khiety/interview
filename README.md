@@ -1,7 +1,7 @@
 # Websocket API
 
 ``` markdown
-PATH          = ws://47.101.160.77:3001/freetalk/stream/upload
+PATH          = ws://47.101.160.77:4004/freetalk/stream/upload
 
 REQUEST-BODY  = META-LEN META-ENCODED STREAM %s"EOS"
 
