@@ -85,7 +85,7 @@ example
   "msg": "ef3f83f22204640fa5a0c6350996586f",
   "reqId": "ef3f83f22204640fa5a0c6350996586f",
   "key": "ef3f83f22204640fa5a0c6350996586f",
-  "result": "https://cdn.vtech.plus/1522218183396756824.mp3",
+  "result": "https://cdn.vtech.plus/1596956180855421248.mp3",
   "flag": 1  
 }
 ```

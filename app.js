@@ -29,12 +29,10 @@ ws.on('open', function open() {
 });
 
 ws.on('message', function incoming(data) {
-  // console.log(data.toString())
   // 根据文档，前面 4 byte 描述长度 但因为 response 是 unary, 并不需要事先知道长度，故跳过。
   const dataStr = data.slice(4).toString()
-  console.log(dataStr)
-  //const result = JSON.parse(dataStr).result
-  //console.log('Result URL:', result)
+  const result = JSON.parse(dataStr).result
+  console.log('Result URL:', result)
 });
 
 
